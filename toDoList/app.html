@@ -6,16 +6,20 @@
 </head>
 
 <body>
-	<div id="myDIV" class="header">
-	  <h2>My To Do List</h2>
-	  <input type="text" id="myInput" placeholder="Title...">
-	  <span onclick="newElement()" class="addBtn">Add</span>
-	</div>
+		<div id="myDIV" class="header">
+	  		<h2>My To Do List</h2>
+	  		<p>Add items to your to-do list, cross them off, or even delete them with the X button on the right hand side of each item.</p>
+	  		<input type="text" id="myInput" placeholder="Add an item here...">
+	  		<span onclick="newElement()" class="addBtn">Add</span>
+		</div>
+	<section class="app">
+		<ul id="myUL"></ul>
+	</section>
+	<footer>
+		<p>Thank you for using this application</p>
+		<p>Author : Mitchell Congdon</p>
 
-
-	<ul id="myUL"></ul>
-
-	<footer>Author : Mitchell Congdon</footer>
+	</footer>
 	<script src="app.js"></script>
 </body>
 </html>
